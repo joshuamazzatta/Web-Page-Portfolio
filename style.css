@@ -1,0 +1,114 @@
+
+header {
+  text-align: center;
+  background-color: #3F88C5;
+  /*border: 10px ridge #44BBA4;*/
+  border-radius: 25px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  line-height: 40px
+}
+
+/* whole page margins and background */
+body {
+  background: #F7ECE1;
+  margin: 10px 50px 10px 50px;
+}
+
+
+/* my name */
+h1 {
+  margin-top: 10px;
+  color: #ffff;
+  font-size: 45px;
+  height: 20px;
+  font-family: "Lucida Console", Monaco, monospace
+
+}
+
+
+h2 {
+  text-align: center;
+  border: 5px ridge #9067C6;
+  background-color: #EBF2FA;
+  border-radius: 20px;
+  padding: 5px
+
+}
+
+
+h3 {
+  text-align: center;
+  margin: 5px 20px;
+  border: 7px ridge #9067C6;
+  background-color: #EBF2FA;
+  border-radius: 20px;
+  padding: 5px
+}
+
+
+h4 {
+  text-align: center;
+  margin: 5px 20px;
+  border-radius: 20px;
+  padding: 5px;
+  font-family: 'Times New Roman', Arial, Helvetica;
+}
+
+/* image of me */
+main > img {
+  border-radius: 15%;
+  margin-bottom: 20px;
+
+}
+
+
+/* line breaks */
+hr {
+  margin: 15px 150px;
+}
+
+main > h2 {
+  margin: 10px 60px
+}
+
+main > h3 {
+  border: 0px ridge #ffff;
+
+}
+
+p {
+  text-align: center;
+}
+
+p, ul, ol {
+  font-family: sans-serif, 'Times New Roman', Arial;
+}
+
+
+h2, h3 {
+  font-family: "Abril Fatface", cursive, Arial;
+}
+
+
+/* to center contact list */
+.center {
+  text-align: center;
+  list-style-position: inside;
+}
+
+/* to center my image */
+.centeredImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* pseudo links */
+a:link    { color: blue;  }
+a:visited { color: #660000;   }
+a:hover   { color: #FF9000; }
+a:active  { color: yellow;  }
